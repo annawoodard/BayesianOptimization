@@ -80,7 +80,7 @@ class BayesianOptimization(Observable):
             kernel=Matern(nu=2.5),
             alpha=alpha,
             normalize_y=True,
-            n_restarts_optimizer=25,
+            n_restarts_optimizer=5,
             random_state=self._random_state,
         )
 
